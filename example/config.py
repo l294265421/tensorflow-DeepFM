@@ -1,9 +1,10 @@
+basedir = r'D:\document\program\ml\machine-learning-databases\kaggle\Porto Seguros Safe Driver Prediction\\'
 
 # set the path-to-files
-TRAIN_FILE = "./data/train.csv"
-TEST_FILE = "./data/test.csv"
+TRAIN_FILE = basedir + "train.csv"
+TEST_FILE = basedir + "test.csv"
 
-SUB_DIR = "./output"
+SUB_DIR = basedir
 
 
 NUM_SPLITS = 3

@@ -9,9 +9,9 @@ from matplotlib import pyplot as plt
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import StratifiedKFold
 
-import config
-from metrics import gini_norm
-from DataReader import FeatureDictionary, DataParser
+from example import config
+from example.metrics import gini_norm
+from example.DataReader import FeatureDictionary, DataParser
 sys.path.append("..")
 from DeepFM import DeepFM
 
